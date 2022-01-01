@@ -1,7 +1,7 @@
 # Config Map
 #kind: ConfigMap 
 #apiVersion: v1 
-apiVersion: apps/v1
+apiVersion: apps/v1beta1
 kind:Deployment
 metadata:
   name: springapp-configmap
